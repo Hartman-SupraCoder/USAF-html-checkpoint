@@ -1,1 +1,68 @@
+* {
+    outline: none; 
+    font-size: x-large; 
+
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+input {
+    max-width: 70%;
+}
+img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+nav {
+    display: flex;    
+    color: white;
+    background-color:gray;      
+}
+.navLeft {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.navRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.navObj {
+    padding: 1%;
+}
+
+
+
+.movieDetails {
+    display: flex;     
+}
+
+.movieLeft {
+    width: 30%;
+    padding: 1%;
+}
+
+.movieRight {
+    width: 60%;
+    padding: 1%;
+}
+
+.homePage {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.loginPage {
+    display: flex;   
+    justify-content: center;
+}
 
